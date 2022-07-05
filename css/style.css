@@ -1,0 +1,84 @@
+:root {
+    /* fonts */
+    --main-font: "Dancing Script", sans-serif;
+}
+
+
+
+.h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+img {
+    display:block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+.main-title {
+    font-size: 60px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgba(0, 27, 146, 0.8);
+    text-transform: uppercase;
+}
+
+
+.slider-container {
+    position: relative;
+
+    width: 1500px;
+    margin: 0 auto;   
+    background-image: linear-gradient(to top left, rgba(0, 255, 255, 0.5), rgba(236, 245, 111, 0.5));
+    border-radius: 20px;
+    overflow: ;
+}
+
+.slider-img {
+    margin: 20px 15px;
+
+}
+
+.slick-track {
+    
+}
+
+.slick-prev:before,
+.slick-next:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: 'slick';
+    font-size: 50px;
+    line-height: 1;
+    opacity: .75;
+    color: rgba(76, 230, 16, 0.473);
+    -webkit-font-smoothing: antialiased;
+}
+
+.slick-prev {
+    left: -40px;
+}
+
+.slick-next {
+    right: -40px;
+}
+
+.img-desc {
+    font-size: 40px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgba(0, 27, 146, 0.8);
+}
