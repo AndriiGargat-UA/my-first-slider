@@ -21,6 +21,7 @@ img {
 
 body {
     font-family: var(--main-font);
+    background-color: rgba(146, 245, 215, 0.2);
 }
 
 .main-title {
